@@ -1,8 +1,13 @@
 # taller-SPARQL-timeline
 
-SPARQL es un lenguaje de consulta diseñado para obtener información de bases de datos que almacenan datos estructurados en formato RDF (Resource Description Framework). Es como SQL, pero para datos enlazados y semánticos.
+<img width="1339" height="600" alt="timeline-ejempo" src="https://github.com/user-attachments/assets/902013f6-eb8b-4b91-b341-5712f9aa8efb" />
 
-[Histropedia - Wikidata Query Timeline](https://js.histropedia.com/apps/query-timeline/)
+
+---
+
+[**SPARQL**](https://es.wikipedia.org/wiki/SPARQL) es un lenguaje de consulta diseñado para obtener información de bases de datos que almacenan datos estructurados en formato RDF (Resource Description Framework). Es como SQL, pero para datos enlazados y semánticos.
+
+[**Histropedia** - Wikidata Query Timeline](https://js.histropedia.com/apps/query-timeline/) Esta herramienta te permite generar una línea de tiempo interactiva HistropediaJS utilizando resultados en tiempo real de una consulta SPARQL de Wikidata.
 
 
 ### Explicación de elementos clave
@@ -15,6 +20,21 @@ Es como SELECT en SQL
 
 Similar al WHERE en SQL
 
+
+**Variables** (**?**):
+
+?ciudad, ?imagen, etc. son variables que almacenan los resultados
+El ? indica que es una variable
+
+Propiedades (**wdt:**):
+
+**wdt:** es el prefijo para propiedades de Wikidata
+
+
+**Entidades** (**wd:**):
+
+**wd:** es el prefijo para entidades de Wikidata
+Q2555896 es el ID único para "ciudad"
 
 **SERVICE** wikibase:label:
 
